@@ -19,39 +19,113 @@ body{
 
 .col{
     float: left;
-    background-color: bisque;
 }
 
 .text-right{
     text-align: right;
 }
 
-/* header */
+/* HEADER */
 .topbar{
     /*  */
     height: 100px;
-    background-color: aqua;
 }
-
+/* colonne */
 .topbar .col{
     /*  */
     height: 100px;
-    width: 50%;
+    width: 15%;
     line-height: 100px;
 }
 
-.navigation li{
-    display: inline-block;
-    padding-left: 50px;
+.topbar .col.center{
+    position: relative;
+    width: 70%;
 }
 
-.navigation li a{
+.col ul{
+    padding-left: 0;
+}
+
+.col li{
+    display: inline-block;
+    padding-right: 50px;
     text-decoration: none;
     color: black;
-    font-weight: bolder;
     
 }
 
+.col li a{
+    text-decoration: none;
+    color: black;
+}
+/* logo */
 #logo{
     vertical-align: middle;
+    padding-right: 50px;
+}
+.inline-block{
+    display: inline-block;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+}
+
+.btn{
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.btn.blue{
+    color: white;
+    background-color: #0061FF;
+}
+
+.btn:hover{
+    transform: scale(1.5);
+}
+
+/* spotlight */
+header .spotlight{
+    position: relative;
+    height: 850px;
+    background-color: #B4D0E7;
+    padding: 100px;
+    padding-top: 50px;
+}
+
+header .spotlight h2{
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+#jumbo{
+    position: absolute;
+    width: 60%;
+    left: 30%;
+    top: 37%;
+    animation: transition linear 500ms;
+}
+
+@keyframes transition {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 100%;
+    }
+}
+
+.spotlight p{
+    margin-top: 20px;
+    padding-right: 75%;
+    padding-bottom: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
 }
