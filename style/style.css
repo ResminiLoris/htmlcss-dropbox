@@ -46,8 +46,16 @@ body{
     width: 30%;
 }
 
+.w-40{
+    width: 40%;
+}
+
 .w-50{
     width: 50%;
+}
+
+.w-60{
+    width: 60%;
 }
 
 .w-70{
@@ -146,6 +154,9 @@ body{
     background-color: #0061FF;
 }
 
+.btn-clear{
+    border: 1px solid black;
+}
 
 /* spotlight */
 header .spotlight{
@@ -188,9 +199,14 @@ header .spotlight h2{
 /* main */
 .container-small{
     max-width: 1400px;
-    margin: 300px auto;
+    margin: 0 auto;
     height: 2000px;
-    /* background-color: rgba(100, 0, 0, 0.2); */
+}
+
+.page
+{
+    margin-top: 230px;
+    margin-bottom: 230px;
 }
 
 #plans h1{
@@ -239,15 +255,6 @@ header .spotlight h2{
 .col-container .name{
     padding: 20px;
 }
-/* .items .col:first-child{
-    padding-left: 0;
-    padding-right:0 ;
-}
-
-.items .col:last-child{
-    padding-right: ;
-    padding-left: 50px;
-} */
 
 .article-plans{
     padding: 30px;
@@ -270,4 +277,15 @@ header .spotlight h2{
 .col-container.bottom .col{
     padding: 50px;
     
+}
+
+/* parter */
+#partner .col.w-40{
+    font-size: 25px;
+    padding: 50px;
+    padding-left: 0;
+}
+
+#partner .col img{
+    width: 80%;
 }
