@@ -21,8 +21,24 @@ body{
     float: left;
 }
 
+.w-30{
+    width: 30%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-70{
+    width: 70%;
+}
+
 .text-right{
     text-align: right;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /* HEADER */
@@ -90,11 +106,8 @@ body{
 
 /* spotlight */
 header .spotlight{
-    position: relative;
-    height: 850px;
+    height: 950px;
     background-color: #B4D0E7;
-    padding: 100px;
-    padding-top: 50px;
 }
 
 header .spotlight h2{
@@ -102,11 +115,13 @@ header .spotlight h2{
     margin-bottom: 50px;
 }
 
+.container{
+    padding: 100px;
+}
+
 #jumbo{
-    position: absolute;
-    width: 60%;
-    left: 30%;
-    top: 37%;
+    
+    width: 100%;
     animation: transition linear 500ms;
 }
 
@@ -121,11 +136,35 @@ header .spotlight h2{
     }
 }
 
-.spotlight p{
-    margin-top: 20px;
-    padding-right: 75%;
-    padding-bottom: 50px;
+.spotlight p{  
+    margin-top: 50px;  
+    margin-bottom: 50px;
     font-size: 16px;
     font-weight: 600;
-    line-height: 25px;
+}
+
+/* main */
+.section-main{
+    margin-top: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 200px;
+    height: 800px;
+    background-color: cadetblue;
+}
+
+.section-main h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.fatturazione label{
+    margin-right: 30px;
+}
+
+.piani-pagamento .col{
+    width: 33%;
+    /*  */
+    height: 500px;
+    background-color: crimson;
 }
