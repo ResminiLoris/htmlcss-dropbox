@@ -283,13 +283,13 @@ header .spotlight h2{
 }
 
 /* parter */
-#partner .col.w-40{
+.partner .col.w-40{
     font-size: 25px;
     padding: 50px;
     padding-left: 0;
 }
 
-#partner .col img{
+.partner .col img{
     width: 80%;
 }
 
